@@ -1,0 +1,390 @@
+@charset "utf-8";
+
+body {
+	font-family: 微軟正黑體, Verdana, Geneva, sans-serif;
+	background: url("../images/bg-5.jpg") no-repeat top center;
+	/* background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/bg-5.jpg);
+	background-repeat: no-repeat;
+	background-position: center top; */
+	color: #000;
+}
+
+/*---------------------------
+	框架
+----------------------------*/
+.wrap {
+	position: relative;
+}
+
+.main {
+	width: 1320px;
+	margin: 0 auto 0 auto;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/*---------------------------
+	Header
+----------------------------*/
+.logo img {
+	display: block;
+	margin: 0;
+}
+.logo {
+	margin: 30px 0 0 0;
+}
+
+.header {
+	position: relative;
+	overflow: hidden;
+}
+
+.nav {
+	position: absolute;
+	top: 70px;
+	left: 0;
+	font-size: 0; /*歸零inline-block，所產生的間距*/
+}
+
+.nav li {
+	display: inline-block;
+	margin: 0px 0 0 0;
+	width: 180px;
+	text-align: center;
+}
+
+.nav a {
+	color: #a78337 ;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.nav li a:hover {
+	background-image: -webkit-linear-gradient(#f9f7da, #f8f290);
+	border-top: solid #6f7072 1px;
+	border-radius: 5px;
+	padding: 5px 10px;
+	box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.20);
+}
+
+.empty {
+	visibility: hidden;
+}
+
+h1 {
+	color:#a78337;
+	margin: 0 0px 20px 10px;
+	font-size: 22px;
+}
+
+/*---------------------------
+	Services
+----------------------------*/
+.services {
+	margin-top: 420px;
+	overflow: hidden;
+}
+
+.services h2 {
+	color:#a78337;
+	font-size: 24px;
+	border-bottom: 1px dotted #ccc;
+	/* text-align: center; */
+	margin: 0px 0px 10px 0;
+	padding: 30px 0 10px 0;
+}
+
+.services .box {
+	background: url("../images/2019快樂學佛人.jpg") no-repeat top center;
+	width: 300px;
+	height: 320px;
+	padding: 0 10px;
+	float: left;
+	position: relative;
+}
+.services .box1{
+	background: url("../images/兒童心靈環保體驗營.jpg") no-repeat top center;
+    width: 300px;
+	height:320px;
+	padding: 0 10px;
+	float: left;
+	position: relative;
+}
+.services .box2{
+	background: url("../images/長青班.jpg") no-repeat top center;
+    width: 300px;
+	height:320px;
+	padding: 0 10px;
+	float: left;
+	position: relative;
+}
+.services .box3{
+	background: url("../images/經典共修.jpg") no-repeat top center;
+    width: 300px;
+	height:320px;
+	padding: 0 10px;
+	float: left;
+	position: relative;
+}
+
+.services .content {
+	margin-top: 260px;
+	padding: 10 0px;
+	display: inline-block;
+}
+
+.content p {
+	color: #747d82;
+	line-height: 21px;
+	font-size: 13px;
+}
+
+.services .more a {
+	background: url("../images/more.png") no-repeat top center;
+	width: 80px;
+	height: 30px;
+	position: absolute;
+	top: 290px;
+	right: 10px;
+}
+.services .more a:hover {
+	background: url("../images/more_hover.png") no-repeat top center;
+}
+
+/*---------------------------
+	Portfolio
+----------------------------*/
+.dortfolio {
+	background: url("../images/portfolio/bg.jpg") repeat-x top center;
+    margin: 30px 0 50px 0;
+    padding: 45px 0;
+    overflow: hidden;
+}
+
+.dortfolio img {
+	display: inline-block;
+}
+
+.dortfolio .box {
+	width: 1320px;
+	margin: auto;
+}
+
+.dortfolio .more a {
+	background: url("../images/more.png") no-repeat top center;
+	display: block;
+	width: 105px;
+	height: 40px;
+	margin: 15px 0 5px 0;
+}
+.dortfolio .more a:hover {
+	background: url("../images/more_hover.png") no-repeat top center;
+}
+
+.first, .second, .third {
+	float: left;
+	height: 430px;
+}
+
+.first {
+	width: 390px;
+	font-size: 0; /*歸零inline-block，所產生的間距*/
+}
+
+.first img {
+	padding: 0px 5px 5px 0px;
+}
+
+.second {
+	width: 380px;
+	background-color: #595e61;
+}
+
+figure {
+	margin: 0;
+	padding: 20px 0;
+	width: 340px;
+	margin: auto;
+	color: #fff;
+}
+
+figcaption {
+	font-size: 20px;
+	margin: 10px 0 5px 0;
+	line-height: 24px;
+	font-weight: bold;
+}
+
+figure p {
+	line-height: 20px;
+	font-size: 13px;
+}
+
+.third {
+	width: 180px;
+	padding: 0 5px 0 5px;
+}
+
+.third img {
+	padding: 0px 5px 5px 0px;
+}
+
+/*---------------------------
+	Blog
+----------------------------*/
+.blog {
+    width:1320px;
+    margin: 0 auto 40px auto;
+	overflow: hidden;
+}
+
+.blog img {
+	float: left;
+	border: 1px solid #9aa0a4;
+}
+
+.blog .box {
+	width: 640px;
+	float: left;
+	margin: 0 10px 0 10px;
+}
+
+.blog section {
+	overflow: hidden;
+}
+
+.blog .box .text {
+	width: 330px;
+	float: right;
+	padding: 0 0 0 8px;
+}
+
+h3 {
+	color: #a78337;
+	font-size: 18px;
+	text-align: left;
+	margin: 30px 0 0 0;
+	/* margin: 0px 0px 10px 0;
+	padding: 0px 0 0px 0;
+	letter-spacing: -1px; */
+}
+
+.blog p {
+	color: #7c8389;
+	line-height: 20px;
+	font-size: 14px;
+}
+
+.blog .more a {
+	background: url("../images/more.png") no-repeat top center;
+	width: 105px;
+	height: 40px;
+	margin: 5px 0 0px 0;
+	float: right;
+}
+.blog .more a:hover {
+	background: url("../images/more_hover.png") no-repeat top center;
+}
+/*---------------------------
+	Description
+----------------------------*/
+.description {
+    background: url("../images/description_bg.png") repeat top center;
+    margin: 0 auto 0px auto;
+    padding: 10px 0 10px 0;
+    overflow: hidden;
+    color: #fff;
+}
+
+.description .box {
+	width: 960px;
+	margin: 0px auto 0px auto;
+	overflow: hidden;
+}
+
+.description section {
+	width: 300px;
+	padding: 10px;
+	float: left;
+	position: relative;
+}
+
+.description h2 {
+	color: #fff;
+	font-size: 28px;
+	border-bottom: 1px dotted #f0f0f0;
+	text-align:center;
+	margin: 0px 0px 10px 0;
+	padding: 30px 0 10px 0;
+}
+
+.description p {
+	color: #f0f0f0;
+	line-height: 25px;
+	font-size: 12px;
+	text-align:center;
+}
+
+.description .more a {
+	background: url("../images/more.png") no-repeat top center;
+	width: 105px;
+	height: 40px;
+	margin: 15px 0 0px 0;
+	float: left;
+}
+.description .more a:hover {
+	background: url("../images/more_hover.png") no-repeat top center;
+}
+
+.description .send a {
+	background: url("../images/send.png") no-repeat top center;
+	width: 105px;
+	height: 40px;
+	margin: 5px 0 0px 0;
+	float: left;
+	
+}
+.description .send a:hover {
+	background: url("../images/send_hover.png") no-repeat top center;
+}
+input {
+	background-color: #f0f0f0;
+	color: #54585b;
+	font-size: 14px;
+	outline: none; /* 點擊input 外層默認藍色框取消 */
+	border: none;
+	margin: 5px 0 5px 0;
+	padding: 6px 10px 6px 15px;
+}
+
+textarea {
+	width: 100%;
+	min-height: 150px;
+	background-color: #f0f0f0;
+	font-size: 14px;
+	outline: none; /* 點擊input 外層默認藍色框取消 */
+	border: none;
+	margin: 5px 0 5px 0;
+	padding: 6px 10px 6px 15px;
+}
+
+/*---------------------------
+	版權
+----------------------------*/
+footer {
+	background-color: #414546;
+	color: #9aa0a4;
+	font-size: 13px;
+}
+
+.copyright {
+	width: 960px;
+	padding: 20px 0;
+	margin: auto;
+	text-align: center;
+}
